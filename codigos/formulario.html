@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SNEAKERS</title>
+		<link rel="icon" type="image/png" href="imagenes/favicon.png">
+		<meta charset="utf-8">
+		<meta author="Álvaro Martínez">
+		<link rel="stylesheet" type="text/css" href="estiloPrincipal.css">
+		<style>
+			#pie2{
+				background-color:yellow;
+				position:relative;
+				width:70px;
+				height:70px;
+				margin-left:150px;
+				top:60px;
+				font-size:30px;
+				box-shadow:2px 2px 4px;
+				border-radius:5px;
+				padding:10px;
+				}
+			#contenido {
+				background-color:yellow;
+				position:absolute;
+				width:400px;
+				height:340px;
+				margin-left:200px;
+				top:80px;
+				text-align:left;
+				box-shadow:2px 2px 4px;
+				font-family:arial;
+				border-radius:5px;
+				padding:20px;
+				}
+			h2 {
+				text-align:center;
+				}
+		</style>
+	</head>
+	<body>
+	<div id="main">
+		<div id="contenedora">
+			<div id="cabecera">
+				<div id="usuario">
+					<form method="post" name="alumnos" action="recibido.html" enctype="multipart/form-data">
+						<label>USUARIO<input type="text" size="20" maxlength="10"/></label>
+						<label>PASSWORD<input type="password" size="20" maxlength="10"/></label>
+						<input class="cursor" type="submit" value="Enviar">
+					</form>
+				</div>
+				<div id="registro">
+					REGISTRATE<br><a href="formulario.html"><img class="cursor" src="imagenes/boton.png"></img></a>
+				</div>
+			</div>
+			
+			<div id="menu">
+				<ul>
+					<li> NIKE
+						<ul>
+							<li><a href="airmax.html"> AIR MAX </a></li>
+							<li><a href="airforce.html"> AIR FORCE </a></li>
+							<li><a href="airjordan.html"> AIR JORDAN </a></li>
+						</ul>
+					</li>
+					<li> ADIDAS
+						<ul>
+							<li><a href="superstar.html"> SUPERSTAR </a></li>
+							<li><a href="gazelle.html"> GAZELLE </a></li>
+							<li><a href="yezzy.html"> YEEZY </a></li>
+						</ul>
+					</li>
+					<li> PUMA
+						<ul>
+							<li><a href="clyde.html"> CLYDE </a></li>
+							<li><a href="rsx3.html"> RS-X3 </a></li>
+					</ul>
+					</li>
+					<li> REEBOK
+						<ul>
+							<li><a href="classic.html"> CLASSIC </a></li>
+							<li><a href="aztrek.html"> AZTREK </a></li>
+						</ul>
+					</li>
+					<li> OTROS
+						<ul>
+							<li><a href="vans.html"> VANS </a></li>
+							<li><a href="newbalance.html"> NEW BALANCE </a></li>
+							<li><a href="converse.html"> CONVERSE </a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="invisible">
+				<div id="foto1"><img src="imagenes/airmax.jpg"> </img></div>
+				<div id="foto2"><img src="imagenes/yeezy.png"> </img></div>
+				<div id="foto3"><img src="imagenes/react.jpg"> </img></div>
+				<div id="foto4"><img src="imagenes/270.jpg"> </img></div>
+				<div id="foto5"><img src="imagenes/rs.jpg"> </img></div>
+				<div id="foto6"><img src="imagenes/reebok.jpg"> </img></div>
+				
+				<div id="contenido">
+					<h2>REGISTRATE</h2>
+					<form style="font-family:kobe" method="post" name="alumnos" action="recibidoRegistro.html" enctype="multipart/form-data">
+						<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNOMBRE: <input type="text" size="20" maxlength="10"/></label><br><br>
+						<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAPELLIDOS: <input type="text" size="20" maxlength="10"/></label><br><br>
+						<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDIRECCION: <input type="text" size="30" maxlength="10"/></label><br><br>
+						<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTELEFONO: <input type="text" size="9" maxlength="9"/></label><br><br>
+						<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspE-MAIL: <input type="text" size="30" maxlength="30"/></label><br><br>
+						<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPASSWORD: <input type="text" size="20" maxlength="10"/></label><br><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class="cursor" type="submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+			<div id="pie"><p id="footer">ALVARO MARTINEZ</p></div>
+			<div id="fin"><p>© Copyright 2020 Zapas S.L. privacidad | derechos reservados | aviso legal | política de cookies</p></div>
+		</div>
+	</div>
+	</body>
+</html>

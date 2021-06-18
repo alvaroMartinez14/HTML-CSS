@@ -1,0 +1,211 @@
+			* {
+				cursor:url('imagenes/cursor2.png'), auto;
+				}
+			@font-face {
+				font-family: kobe;
+				src: url("fuente/kobe.ttf");
+				}
+			.cursor {
+				cursor:url('imagenes/cursor3.png'), auto;
+				}
+			input {
+				cursor:text;
+				}
+			#main {
+				background-image:url("imagenes/wall.jpg");
+				width:1520px;
+				height:1200px;
+				}
+			#contenedora{
+				background-color:grey;
+				position:relative;
+				width:1000px;
+				height:1200px;
+				margin:auto;
+				border:hidden;
+				}
+			#cabecera{
+				position:relative;
+				width:1000px;
+				height:300px;
+				margin-left:0px;
+				top:0px;
+				background-image:url("imagenes/marcas2.jpg");
+				box-shadow:1px 1px 2px;
+				}
+			#usuario {
+				position:absolute;
+				background-color:yellow;
+				width:190px;
+				height:110px;
+				margin-top:30px;
+				margin-left:760px;
+				color:black;
+				font-family:kobe;
+				font-weight:bold;
+				text-align:center;
+				box-shadow:2px 2px 4px 2px;;
+				border-radius:5px;
+				padding-top:10px;
+				}
+			#registro {
+				position:absolute;
+				weight:200px;
+				height:80px;
+				margin-top:170px;
+				margin-left:827px;
+				color:black;
+				text-align:center;
+				font-weight:bold;
+				box-shadow:2px 2px 4px 2px;
+				border-radius:5px;
+				background-color:yellow;
+				font-family:kobe;
+				font-size:20px;
+				padding:10px 10px;
+				}
+			img {
+				width:70px;
+				height:70px;
+				}
+			
+			#menu{
+				background-color:yellow;
+				position:relative;
+				width:900px;
+				height:100px;
+				margin-left:50px;
+				margin-top:0px;
+				font-family:kobe;
+				box-shadow:2px 2px 4px;
+				border-radius:5px;
+				}
+			#menu ul {
+				list-style:none;
+				padding:0;
+				margin-left:50px;
+				margin-top:0px;
+				font-size:35px;
+				}
+			#menu li {
+				line-height:3em;
+				position:relative;
+				width:160px;
+				font-weight:bold;
+				text-align:center;
+				cursor:url('imagenes/cursor3.png'), auto;
+				}
+			#menu li ul {
+				display:none;
+				position:absolute;
+				margin-top:0px;
+				margin-left:0px;
+				}
+			#menu a {
+				color:black;
+				display:block;
+				padding:0 1.5em;
+				text-decoration:none;
+				font-size:15px;
+				cursor:url('imagenes/cursor3.png'), auto;
+				}
+			#menu li:hover {
+				background-color:grey;
+				}
+			#menu a:hover {
+				background:grey;
+				}
+			#menu li:hover ul {
+				display:block;
+				width:100%;
+				background-color:yellow;
+				z-index:1;
+				border-radius:5px;
+				box-shadow:2px 2px 4px;
+				}
+			#menu > ul > li {
+				float:left;
+				}
+			#invisible	{
+				background-color:grey;
+				position:relative;
+				width:800px;
+				height:500px;
+				margin-left:100px;
+				margin-top:50px;
+				}
+			#invisible img:hover {
+				z-index:10;
+				}
+			#foto1 img {
+				width:350px;
+				height:300px;
+				position:absolute;
+				top:20px;
+				left:0px;
+				box-shadow:2px 2px 4px;
+			}
+			#foto2 img {
+				width:350px;
+				height:300px;
+				position:absolute;
+				top:200px;
+				left:60px;
+				box-shadow:2px 2px 4px;
+			}
+			#foto3 img {
+				width:350px;
+				height:300px;
+				position:absolute;
+				top:20px;
+				left:450px;
+				box-shadow:2px 2px 4px;
+			}
+			#foto4 img {
+				width:350px;
+				height:300px;
+				position:absolute;
+				top:210px;
+				left:390px;
+				box-shadow:2px 2px 4px;
+			}
+			h1 {
+				font-family:kobe;
+				}
+			#contenido {
+				background-color:yellow;
+				position:absolute;
+				width:500px;
+				height:300px;
+				margin-left:150px;
+				top:80px;
+				text-align:center;
+				box-shadow:2px 2px 4px;
+				font-family:arial;
+				border-radius:5px;
+				padding:20px;
+				}
+			
+			#pie{
+				background-color:yellow;
+				position:relative;
+				width:70px;
+				height:70px;
+				margin-left:460px;
+				top:50px;
+				font-size:30px;
+				box-shadow:2px 2px 4px;
+				border-radius:5px;
+				padding:10px;
+				}
+			#footer {
+				padding:10px;
+				margin-right:40px;
+				font-family:arial;
+				font-weight:bold;
+				}
+			#fin {
+				position:relative;
+				top:80px;
+				text-align:center;
+				}
